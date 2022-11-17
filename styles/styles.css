@@ -1,0 +1,265 @@
+body {
+  max-width: 1280px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.navbar-container {
+  height: 50px;
+  margin: auto;
+  background: #4e4e4e;
+  display: flex;
+}
+
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.main-nav-elem {
+  margin-left: 46px;
+}
+.logo {
+  width: 88px;
+  height: 29px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.main-nav-link {
+  width: 61px;
+  height: 21px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #f1f1f1;
+}
+
+.contact:hover {
+  cursor: not-allowed;
+}
+
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: calc(100vh - 50px);
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ),
+    url(../assets/img/samsung-memory-Mfnv3l9ZDgE-unsplash.jpg);
+}
+
+.header-content {
+  width: 960px;
+  padding: 14px;
+  color: #ffffff;
+}
+
+.header-text1 {
+  max-width: 577px;
+  margin-bottom: 62px;
+}
+
+.header-text2 {
+  margin-bottom: 43px;
+}
+
+.button-header {
+  background-color: #c4c4c400;
+  border: 3px solid white;
+  color: white;
+  width: 164px;
+  height: 40.74px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.button-header:hover {
+  background-color: white;
+  color: black;
+}
+
+#AboutUS {
+  background-color: #f1f1f1;
+  overflow: auto;
+}
+
+.AboutUS-title {
+  margin-top: 51px;
+  margin-bottom: 78px;
+  color: #152d41;
+}
+
+.workers {
+  display: flex;
+  align-items: center;
+  padding-bottom: 68px;
+}
+
+.p1 {
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.p2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.worker-img1 {
+  width: 197px;
+  height: 197px;
+  margin-right: 60px;
+  border-radius: 50%;
+  background: url(../assets/img/worker1.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.worker-img2 {
+  width: 197px;
+  height: 197px;
+  margin-left: 60px;
+  border-radius: 50%;
+  background: url(../assets/img/worker2.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.workers--row:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+#Offer {
+  background-color: #405d78;
+}
+
+.offer-title {
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+.offer-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 198px 198px 198px;
+  gap: 63px;
+  padding-top: 83px;
+  padding-bottom: 64px;
+}
+.offer-grid-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 194px;
+  background-color: #f1f1f1;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+.offer-grid-elem:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+.dot {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  margin-right: 198px;
+  margin-bottom: 194px;
+  border-radius: 50%;
+  background: #e07a64;
+}
+
+.footer-bar {
+  height: 71px;
+  background-color: #4e4e4e;
+}
+
+.footer-txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ico {
+  margin-left: 18px;
+  color: #ffffff;
+}
