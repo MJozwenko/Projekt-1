@@ -26,6 +26,8 @@ h2 {
   margin: auto;
 }
 
+/* NAVBAR */
+
 .navbar-container {
   height: 50px;
   margin: auto;
@@ -76,6 +78,8 @@ h2 {
   align-items: center;
   color: #f1f1f1;
 }
+
+/* HEADER */
 
 .contact:hover {
   cursor: not-allowed;
@@ -132,14 +136,16 @@ h2 {
   color: black;
 }
 
+/* ABOUT US */
+
 #AboutUS {
   background-color: #f1f1f1;
   overflow: auto;
 }
 
 .AboutUS-title {
-  margin-top: 51px;
-  margin-bottom: 78px;
+  padding-top: 50px;
+  padding-bottom: 78px;
   color: #152d41;
 }
 
@@ -193,6 +199,8 @@ h2 {
   text-align: right;
 }
 
+/* OFFER */
+
 #Offer {
   background-color: #405d78;
 }
@@ -237,6 +245,8 @@ h2 {
   border-radius: 50%;
   background: #e07a64;
 }
+
+/* FOOTER */
 
 .footer-bar {
   height: 71px;
