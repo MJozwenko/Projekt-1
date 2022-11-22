@@ -1,24 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  max-width: 1280px;
-  margin: auto;
-}
-
-h1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  align-items: center;
-}
-
-h2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  align-items: center;
+}
+
+h1 {
+  font: 700 36px/42px "Roboto";
 }
 
 .container {
@@ -52,38 +45,24 @@ h2 {
   margin-left: 46px;
 }
 .logo {
-  width: 88px;
-  height: 29px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
   display: flex;
   align-items: center;
   color: #ffffff;
 }
 
 .main-nav-link {
-  width: 61px;
-  height: 21px;
   text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
+  font: 400 18px/21px "Roboto";
   display: flex;
   align-items: center;
   color: #f1f1f1;
 }
 
-/* HEADER */
-
 .contact:hover {
   cursor: not-allowed;
 }
+
+/* HEADER */
 
 .page-header {
   display: flex;
@@ -138,38 +117,29 @@ h2 {
 
 /* ABOUT US */
 
-#AboutUS {
+#about_us {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #f1f1f1;
   overflow: auto;
 }
 
-.AboutUS-title {
-  padding-top: 50px;
-  padding-bottom: 78px;
+.about_us-title {
   color: #152d41;
 }
 
 .workers {
   display: flex;
   align-items: center;
-  padding-bottom: 68px;
+  padding-top: 78px;
 }
 
-.p1 {
+.full-name {
   margin-bottom: 20px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
 }
 
-.p2 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
+.worker_desc {
+  font: 400 18px/21px "Roboto";
 }
 
 .worker-img1 {
@@ -201,12 +171,14 @@ h2 {
 
 /* OFFER */
 
-#Offer {
+#offer {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #405d78;
+  scroll-behavior: smooth;
 }
 
 .offer-title {
-  padding-top: 50px;
   color: #ffffff;
 }
 
@@ -216,7 +188,6 @@ h2 {
   grid-template-columns: 198px 198px 198px;
   gap: 63px;
   padding-top: 83px;
-  padding-bottom: 64px;
 }
 .offer-grid-elem {
   display: flex;
@@ -225,15 +196,11 @@ h2 {
   text-align: center;
   height: 194px;
   background-color: #f1f1f1;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  font: 400 24px/28px "Roboto";
+  transition-duration: 0.5s;
 }
 .offer-grid-elem:hover {
   transform: scale(1.05);
-  transition-duration: 0.5s;
 }
 
 .dot {
@@ -254,11 +221,6 @@ h2 {
 }
 
 .footer-txt {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
   color: #ffffff;
 }
 
@@ -267,6 +229,10 @@ h2 {
   height: 100%;
   justify-content: space-between;
   align-items: center;
+}
+
+.social {
+  display: flex;
 }
 
 .ico {
